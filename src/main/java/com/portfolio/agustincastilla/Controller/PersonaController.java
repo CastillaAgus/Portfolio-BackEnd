@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/persona")
-@CrossOrigin
+@CrossOrigin(origins="https://portfolioagustincastilla.web.app")
 public class PersonaController {
 
     private final PersonaService personaService;
