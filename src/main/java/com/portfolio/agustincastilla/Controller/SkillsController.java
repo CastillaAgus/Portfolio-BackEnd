@@ -6,6 +6,7 @@ import com.portfolio.agustincastilla.Services.SkillsService;
 import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
  @RestController
  @RequestMapping("/skills")
- 
+ @CrossOrigin("https://portfolioagustincastilla.web.app")
 public class SkillsController {
      
     private final SkillsService skillsService;

@@ -8,11 +8,13 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+
 @SpringBootApplication
 public class AgustincastillaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AgustincastillaApplication.class, args);}
+        
          
     @Bean
 public CorsFilter corsFilter() {
